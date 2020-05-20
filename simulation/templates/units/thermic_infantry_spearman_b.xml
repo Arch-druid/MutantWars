@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger">
+  <Identity>
+    <Civ>thermic</Civ>
+    <SelectionGroupName>units/thermic_infantry_slinger_b</SelectionGroupName>
+    <GenericName>Thermic Soldier</GenericName>
+    <SpecificName>Fire Thrower</SpecificName>
+    <Icon>units/thermic_infantry_slinger.png</Icon>
+  </Identity>
+   <Attack>
+    <Ranged>
+      <Hack>0</Hack>
+      <Pierce>9.5</Pierce>
+      <Crush>1.0</Crush>
+      <MaxRange>100</MaxRange>
+      <MinRange>0.0</MinRange>
+      <ProjectileSpeed>62.5</ProjectileSpeed>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Spread>3.0</Spread>
+    </Ranged>
+  </Attack>
+  <Promotion>
+    <Entity>units/thermic_infantry_spearman_b</Entity>
+  </Promotion>
+    <UnitMotion>
+    <WalkSpeed op="mul">12</WalkSpeed>
+    <Run>
+      <Speed op="mul">12</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/thermic/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

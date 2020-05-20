@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
+    </contributor>
+    <created>2017-10-21T20:24:37</created>
+    <modified>2017-10-21T20:24:37</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="lambert12_032-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="lambert12_032-material" name="lambert12_032">
+      <instance_effect url="#lambert12_032-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="gate_aShape_006-mesh" name="gate_aShape.006">
+      <mesh>
+        <source id="gate_aShape_006-mesh-positions">
+          <float_array id="gate_aShape_006-mesh-positions-array" count="126">5.873241 2.646638 1.156013 4.996077 0.925107 1.156013 3.629863 -0.4411082 1.156013 1.908331 -1.318271 1.156013 0 -1.620521 1.156013 -1.908331 -1.318271 1.156013 -3.629862 -0.4411068 1.156013 -4.996076 0.9251082 1.156013 -5.873239 2.646639 1.156013 -6.175488 4.554969 1.156013 -5.873239 6.4633 1.156013 -4.996076 8.18483 1.156013 -3.629861 9.551044 1.156013 -1.908331 10.42821 1.156013 0 10.73046 1.156013 1.90833 10.42821 1.156013 3.62986 9.551044 1.156013 4.996074 8.18483 1.156013 5.873237 6.4633 1.156013 6.175487 4.554969 1.156013 5.873241 2.646638 -1.592349 4.996077 0.925107 -1.592349 3.629863 -0.4411082 -1.592349 1.908331 -1.318271 -1.592349 0 -1.620521 -1.592349 -1.908331 -1.318271 -1.592349 -3.629862 -0.4411068 -1.592349 -4.996076 0.9251082 -1.592349 -5.873239 2.646639 -1.592349 -6.175488 4.554969 -1.592349 -5.873239 6.4633 -1.592349 -4.996076 8.18483 -1.592349 -3.629861 9.551044 -1.592349 -1.908331 10.42821 -1.592349 0 10.73046 -1.592349 1.90833 10.42821 -1.592349 3.62986 9.551044 -1.592349 4.996074 8.18483 -1.592349 5.873237 6.4633 -1.592349 6.175487 4.554969 -1.592349 0 4.554969 1.560208 0 4.554969 -1.996543</float_array>
+          <technique_common>
+            <accessor source="#gate_aShape_006-mesh-positions-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="gate_aShape_006-mesh-normals">
+          <float_array id="gate_aShape_006-mesh-normals-array" count="126">0.6138958 -0.4460092 0.6513125 0.7216663 -0.234482 -0.6513186 0.7216663 -0.234482 0.6513186 0.4460092 -0.6138958 0.6513125 0.6138958 -0.4460092 -0.6513125 0.234482 -0.7216663 0.6513186 0.4460092 -0.6138958 -0.6513125 0 -0.7588062 0.6513165 0.234482 -0.7216663 -0.6513186 -0.234482 -0.7216663 0.6513186 0 -0.7588062 -0.6513165 -0.4460092 -0.6138958 0.6513125 -0.234482 -0.7216663 -0.6513186 -0.6138958 -0.4460092 0.6513125 -0.4460092 -0.6138958 -0.6513125 -0.7216663 -0.234482 0.6513186 -0.6138958 -0.4460092 -0.6513125 -0.7588062 0 0.6513165 -0.7216663 -0.234482 -0.6513186 -0.7216663 0.234482 0.6513186 -0.7588062 0 -0.6513165 -0.6138958 0.4460092 0.6513125 -0.7216663 0.234482 -0.6513186 -0.4460092 0.6138958 0.6513125 -0.6138958 0.4460092 -0.6513125 -0.234482 0.7216663 0.6513186 -0.4460092 0.6138958 -0.6513125 0 0.7588062 0.6513165 -0.234482 0.7216663 -0.6513186 0.234482 0.7216663 0.6513186 0 0.7588062 -0.6513165 0.4460092 0.6138958 0.6513125 0.234482 0.7216663 -0.6513186 0.6138958 0.4460092 0.6513125 0.4460092 0.6138958 -0.6513125 0.7216663 0.234482 0.6513186 0.6138958 0.4460092 -0.6513125 0.7588062 0 0.6513165 0.7216663 0.234482 -0.6513186 0.7588062 0 -0.6513165 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#gate_aShape_006-mesh-normals-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="gate_aShape_006-mesh-map-0">
+          <float_array id="gate_aShape_006-mesh-map-0-array" count="480">0.4816296 0.9013162 0.4548343 1.000209 0.4548343 0.9013162 0.5084249 0.9013162 0.4816296 1.000209 0.4816296 0.9013162 0.5352202 0.9013162 0.5084249 1.000209 0.5084249 0.9013162 0.5620155 0.9013162 0.5352202 1.000209 0.5352202 0.9013162 0.5888107 0.9013162 0.5620155 1.000209 0.5620155 0.9013162 0.6156061 0.9013162 0.5888107 1.000209 0.5888107 0.9013162 0.6424014 0.9013162 0.6156061 1.000209 0.6156061 0.9013162 0.6691967 0.9013162 0.6424014 1.000209 0.6424014 0.9013162 0.6959921 0.9013162 0.6691967 1.000209 0.6691967 0.9013162 0.7227873 0.9013162 0.6959921 1.000209 0.6959921 0.9013162 0.7495826 0.9013162 0.7227873 1.000209 0.7227873 0.9013162 0.776378 0.9013162 0.7495826 1.000209 0.7495826 0.9013162 0.8031732 0.9013162 0.776378 1.000209 0.776378 0.9013162 0.8299685 0.9013162 0.8031732 1.000209 0.8031732 0.9013162 0.8567639 0.9013162 0.8299685 1.000209 0.8299685 0.9013162 0.8835592 0.9013162 0.8567639 1.000209 0.8567639 0.9013162 0.9103544 0.9013162 0.8835592 1.000209 0.8835592 0.9013162 0.9371497 0.9013162 0.9103544 1.000209 0.9103544 0.9013162 0.9639451 0.9013162 0.9371497 1.000209 0.9371497 0.9013162 0.9907404 0.9013162 0.9639451 1.000209 0.9639451 0.9013162 0.5504316 0.571357 0.5736227 0.6168722 0.4183414 0.6683535 0.5143105 0.5352359 0.5504316 0.571357 0.4183414 0.6683535 0.4687953 0.5120448 0.5143105 0.5352359 0.4183414 0.6683535 0.4183413 0.5040536 0.4687953 0.5120448 0.4183414 0.6683535 0.3678874 0.5120447 0.4183413 0.5040536 0.4183414 0.6683535 0.3223722 0.535236 0.3678874 0.5120447 0.4183414 0.6683535 0.2862512 0.5713571 0.3223722 0.535236 0.4183414 0.6683535 0.2630601 0.6168723 0.2862512 0.5713571 0.4183414 0.6683535 0.2550688 0.6683535 0.2630601 0.6168723 0.4183414 0.6683535 0.26306 0.7177802 0.2550688 0.6683535 0.4183414 0.6683535 0.2862512 0.7632954 0.26306 0.7177802 0.4183414 0.6683535 0.3223723 0.7994164 0.2862512 0.7632954 0.4183414 0.6683535 0.3678874 0.8226075 0.3223723 0.7994164 0.4183414 0.6683535 0.4183413 0.8305986 0.3678874 0.8226075 0.4183414 0.6683535 0.4687953 0.8226075 0.4183413 0.8305986 0.4183414 0.6683535 0.5143105 0.7994164 0.4687953 0.8226075 0.4183414 0.6683535 0.5504315 0.7632953 0.5143105 0.7994164 0.4183414 0.6683535 0.5736227 0.7177801 0.5504315 0.7632953 0.4183414 0.6683535 0.5816137 0.6683535 0.5736227 0.7177801 0.4183414 0.6683535 0.5736227 0.6168722 0.5816137 0.6683535 0.4183414 0.6683535 0.26306 0.6158447 0.2862511 0.5703296 0.4183413 0.6662987 0.2862511 0.5703296 0.3223722 0.5342085 0.4183413 0.6662987 0.3223722 0.5342085 0.3678874 0.5110174 0.4183413 0.6662987 0.3678874 0.5110174 0.4183413 0.5030262 0.4183413 0.6662987 0.4183413 0.5030262 0.4687952 0.5110174 0.4183413 0.6662987 0.4687952 0.5110174 0.5143104 0.5342085 0.4183413 0.6662987 0.5143104 0.5342085 0.5504315 0.5703296 0.4183413 0.6662987 0.5504315 0.5703296 0.5736227 0.6158448 0.4183413 0.6662987 0.5736227 0.6158448 0.5816138 0.6662987 0.4183413 0.6662987 0.5816138 0.6662987 0.5736226 0.7167527 0.4183413 0.6662987 0.5736226 0.7167527 0.5504315 0.7622679 0.4183413 0.6662987 0.5504315 0.7622679 0.5143104 0.798389 0.4183413 0.6662987 0.5143104 0.798389 0.4687953 0.8215802 0.4183413 0.6662987 0.4687953 0.8215802 0.4183413 0.8295713 0.4183413 0.6662987 0.4183413 0.8295713 0.3678873 0.8215802 0.4183413 0.6662987 0.3678873 0.8215802 0.3223721 0.7983891 0.4183413 0.6662987 0.3223721 0.7983891 0.286251 0.762268 0.4183413 0.6662987 0.286251 0.762268 0.2630599 0.7167527 0.4183413 0.6662987 0.2630599 0.7167527 0.255069 0.6662987 0.4183413 0.6662987 0.255069 0.6662987 0.26306 0.6158447 0.4183413 0.6662987 0.4816296 0.9013162 0.4816296 1.000209 0.4548343 1.000209 0.5084249 0.9013162 0.5084249 1.000209 0.4816296 1.000209 0.5352202 0.9013162 0.5352202 1.000209 0.5084249 1.000209 0.5620155 0.9013162 0.5620155 1.000209 0.5352202 1.000209 0.5888107 0.9013162 0.5888107 1.000209 0.5620155 1.000209 0.6156061 0.9013162 0.6156061 1.000209 0.5888107 1.000209 0.6424014 0.9013162 0.6424014 1.000209 0.6156061 1.000209 0.6691967 0.9013162 0.6691967 1.000209 0.6424014 1.000209 0.6959921 0.9013162 0.6959921 1.000209 0.6691967 1.000209 0.7227873 0.9013162 0.7227873 1.000209 0.6959921 1.000209 0.7495826 0.9013162 0.7495826 1.000209 0.7227873 1.000209 0.776378 0.9013162 0.776378 1.000209 0.7495826 1.000209 0.8031732 0.9013162 0.8031732 1.000209 0.776378 1.000209 0.8299685 0.9013162 0.8299685 1.000209 0.8031732 1.000209 0.8567639 0.9013162 0.8567639 1.000209 0.8299685 1.000209 0.8835592 0.9013162 0.8835592 1.000209 0.8567639 1.000209 0.9103544 0.9013162 0.9103544 1.000209 0.8835592 1.000209 0.9371497 0.9013162 0.9371497 1.000209 0.9103544 1.000209 0.9639451 0.9013162 0.9639451 1.000209 0.9371497 1.000209 0.9907404 0.9013162 0.9907404 1.000209 0.9639451 1.000209</float_array>
+          <technique_common>
+            <accessor source="#gate_aShape_006-mesh-map-0-array" count="240" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="gate_aShape_006-mesh-vertices">
+          <input semantic="POSITION" source="#gate_aShape_006-mesh-positions"/>
+        </vertices>
+        <polylist material="lambert12_032-material" count="80">
+          <input semantic="VERTEX" source="#gate_aShape_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#gate_aShape_006-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#gate_aShape_006-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 0 20 1 1 0 2 2 2 3 3 21 4 4 1 0 5 3 5 6 22 6 7 2 3 8 4 7 9 23 8 10 3 5 11 5 9 12 24 10 13 4 7 14 6 11 15 25 12 16 5 9 17 7 13 18 26 14 19 6 11 20 8 15 21 27 16 22 7 13 23 9 17 24 28 18 25 8 15 26 10 19 27 29 20 28 9 17 29 11 21 30 30 22 31 10 19 32 12 23 33 31 24 34 11 21 35 13 25 36 32 26 37 12 23 38 14 27 39 33 28 40 13 25 41 15 29 42 34 30 43 14 27 44 16 31 45 35 32 46 15 29 47 17 33 48 36 34 49 16 31 50 18 35 51 37 36 52 17 33 53 19 37 54 38 38 55 18 35 56 0 2 57 39 39 58 19 37 59 1 0 60 0 2 61 40 40 62 2 3 63 1 0 64 40 40 65 3 5 66 2 3 67 40 40 68 4 7 69 3 5 70 40 40 71 5 9 72 4 7 73 40 40 74 6 11 75 5 9 76 40 40 77 7 13 78 6 11 79 40 40 80 8 15 81 7 13 82 40 40 83 9 17 84 8 15 85 40 40 86 10 19 87 9 17 88 40 40 89 11 21 90 10 19 91 40 40 92 12 23 93 11 21 94 40 40 95 13 25 96 12 23 97 40 40 98 14 27 99 13 25 100 40 40 101 15 29 102 14 27 103 40 40 104 16 31 105 15 29 106 40 40 107 17 33 108 16 31 109 40 40 110 18 35 111 17 33 112 40 40 113 19 37 114 18 35 115 40 40 116 0 2 117 19 37 118 40 40 119 20 1 120 21 4 121 41 41 122 21 4 123 22 6 124 41 41 125 22 6 126 23 8 127 41 41 128 23 8 129 24 10 130 41 41 131 24 10 132 25 12 133 41 41 134 25 12 135 26 14 136 41 41 137 26 14 138 27 16 139 41 41 140 27 16 141 28 18 142 41 41 143 28 18 144 29 20 145 41 41 146 29 20 147 30 22 148 41 41 149 30 22 150 31 24 151 41 41 152 31 24 153 32 26 154 41 41 155 32 26 156 33 28 157 41 41 158 33 28 159 34 30 160 41 41 161 34 30 162 35 32 163 41 41 164 35 32 165 36 34 166 41 41 167 36 34 168 37 36 169 41 41 170 37 36 171 38 38 172 41 41 173 38 38 174 39 39 175 41 41 176 39 39 177 20 1 178 41 41 179 1 0 180 21 4 181 20 1 182 2 3 183 22 6 184 21 4 185 3 5 186 23 8 187 22 6 188 4 7 189 24 10 190 23 8 191 5 9 192 25 12 193 24 10 194 6 11 195 26 14 196 25 12 197 7 13 198 27 16 199 26 14 200 8 15 201 28 18 202 27 16 203 9 17 204 29 20 205 28 18 206 10 19 207 30 22 208 29 20 209 11 21 210 31 24 211 30 22 212 12 23 213 32 26 214 31 24 215 13 25 216 33 28 217 32 26 218 14 27 219 34 30 220 33 28 221 15 29 222 35 32 223 34 30 224 16 31 225 36 34 226 35 32 227 17 33 228 37 36 229 36 34 230 18 35 231 38 38 232 37 36 233 19 37 234 39 39 235 38 38 236 0 2 237 20 1 238 39 39 239</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="Armature_goron_gate_base_pose_matrix">
+      <source id="Armature_goron_gate_base_pose_matrix-input">
+        <float_array id="Armature_goron_gate_base_pose_matrix-input-array" count="2">0 4.166666</float_array>
+        <technique_common>
+          <accessor source="#Armature_goron_gate_base_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armature_goron_gate_base_pose_matrix-output">
+        <float_array id="Armature_goron_gate_base_pose_matrix-output-array" count="32">1 0 0 0.01388185 0 1 0 -0.140074 0 0 1 0 0 0 0 1 1 0 0 0.01388185 0 1 0 -0.140074 0 0 1 0 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Armature_goron_gate_base_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armature_goron_gate_base_pose_matrix-interpolation">
+        <Name_array id="Armature_goron_gate_base_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Armature_goron_gate_base_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Armature_goron_gate_base_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Armature_goron_gate_base_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Armature_goron_gate_base_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Armature_goron_gate_base_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Armature_goron_gate_base_pose_matrix-sampler" target="goron_gate_base/transform"/>
+    </animation>
+    <animation id="Armature_gate_01_pose_matrix">
+      <source id="Armature_gate_01_pose_matrix-input">
+        <float_array id="Armature_gate_01_pose_matrix-input-array" count="2">0 4.166666</float_array>
+        <technique_common>
+          <accessor source="#Armature_gate_01_pose_matrix-input-array" count="2" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armature_gate_01_pose_matrix-output">
+        <float_array id="Armature_gate_01_pose_matrix-output-array" count="32">1 0 0 -0.01257446 0 1 0 4.721761 0 0 1 0 0 0 0 1 1 0 0 -0.01257446 0 1 0 4.721761 0 0 1 0 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#Armature_gate_01_pose_matrix-output-array" count="2" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Armature_gate_01_pose_matrix-interpolation">
+        <Name_array id="Armature_gate_01_pose_matrix-interpolation-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Armature_gate_01_pose_matrix-interpolation-array" count="2" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Armature_gate_01_pose_matrix-sampler">
+        <input semantic="INPUT" source="#Armature_gate_01_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#Armature_gate_01_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#Armature_gate_01_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#Armature_gate_01_pose_matrix-sampler" target="gate_01/transform"/>
+    </animation>
+  </library_animations>
+  <library_controllers>
+    <controller id="Armature_gate_a-skin" name="Armature">
+      <skin source="#gate_aShape_006-mesh">
+        <bind_shape_matrix>1 0 0 0 0 -1.62921e-7 -1 0 0 1 -1.62921e-7 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_gate_a-skin-joints">
+          <Name_array id="Armature_gate_a-skin-joints-array" count="2">goron_gate_base gate_01</Name_array>
+          <technique_common>
+            <accessor source="#Armature_gate_a-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_gate_a-skin-bind_poses">
+          <float_array id="Armature_gate_a-skin-bind_poses-array" count="32">1 0 0 -0.0138818 0 -1.62921e-7 1 0.140074 0 -1 -1.62921e-7 0 0 0 0 1 1 0 0 -0.001307368 0 -1.62921e-7 1 -4.581687 0 -1 -1.62921e-7 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_gate_a-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_gate_a-skin-weights">
+          <float_array id="Armature_gate_a-skin-weights-array" count="84">0.5503941 0.4496059 0.6963362 0.3036638 0.8824316 0.1175684 0.9754334 0.02456659 0.992204 0.007796108 0.9746354 0.02536457 0.8796386 0.1203615 0.6930551 0.3069449 0.5486811 0.4513189 0.5000014 0.4999986 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5000236 0.4999764 0.5488464 0.4511536 0.6899625 0.3100375 0.871718 0.128282 0.9674875 0.03251242 0.9868813 0.0131188 0.9666104 0.0333895 0.8689438 0.1310562 0.6867927 0.3132073 0.5471891 0.4528109 0.5000013 0.4999987 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5000229 0.4999771 0.5001466 0.4998534 0.5000895 0.4999105</float_array>
+          <technique_common>
+            <accessor source="#Armature_gate_a-skin-weights-array" count="84" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_gate_a-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_gate_a-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="42">
+          <input semantic="JOINT" source="#Armature_gate_a-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_gate_a-skin-weights" offset="1"/>
+          <vcount>2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </vcount>
+          <v>0 0 1 1 0 2 1 3 0 4 1 5 0 6 1 7 0 8 1 9 0 10 1 11 0 12 1 13 0 14 1 15 0 16 1 17 0 18 1 19 0 20 1 21 0 22 1 23 0 24 1 25 0 26 1 27 0 28 1 29 0 30 1 31 0 32 1 33 0 34 1 35 0 36 1 37 0 38 1 39 0 40 1 41 0 42 1 43 0 44 1 45 0 46 1 47 0 48 1 49 0 50 1 51 0 52 1 53 0 54 1 55 0 56 1 57 0 58 1 59 0 60 1 61 0 62 1 63 0 64 1 65 0 66 1 67 0 68 1 69 0 70 1 71 0 72 1 73 0 74 1 75 0 76 1 77 0 78 1 79 0 80 1 81 0 82 1 83</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 90.00001</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="goron_gate_base" name="goron_gate_base" sid="goron_gate_base" type="JOINT">
+          <matrix sid="transform">1 0 0 0.01388185 0 1 0 -0.140074 0 0 1 0 0 0 0 1</matrix>
+          <node id="gate_01" name="gate_01" sid="gate_01" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.01257446 0 1 0 4.721761 0 0 1 0 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="gate_a" name="gate_a" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature_gate_a-skin">
+          <skeleton>#goron_gate_base</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert12_032-material" target="#lambert12_032-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

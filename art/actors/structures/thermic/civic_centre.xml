@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+    <animations>
+        <animation file="HC_extractor/extractor_idle.dae" name="Idle" speed="50"/>
+		<animation file="HC_extractor/extractor_death.dae" name="Death" speed="50"/>
+      </animations>
+      <mesh>structural/thermic/goh_extractorA.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+      </props>
+      <textures>
+       <texture file="structural/thermic/goh_buildingB.png" name="baseTex"/>
+		<texture file="structural/thermic/goh_buildingA_normal.dds" name="normTex"/>
+
+      </textures>
+    </variant>
+  </group>
+   <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

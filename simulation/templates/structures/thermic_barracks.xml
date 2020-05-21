@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
-   <BuildRestrictions>
-	<Territory>own neutral</Territory>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
   </BuildRestrictions>
   <GarrisonHolder>
     <List datatype="tokens">Infantry Cavalry Minister</List>
@@ -9,9 +9,10 @@
   <Identity>
     <Civ>thermic</Civ>
     <SpecificName>Mutant Chamber</SpecificName>
+    <Icon>structures/thermic_barracks.png</Icon>
   </Identity>
-   <VisualActor>
-    <Actor>structures/chinese/barracks.xml</Actor>
+  <VisualActor>
+    <Actor>structures/thermic/civic_centre.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
   <Footprint>
@@ -24,7 +25,7 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_reptile_b
+      units/{civ}_wagon_b
     </Entities>
   </ProductionQueue>
 </Entity>

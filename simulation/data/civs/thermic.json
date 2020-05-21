@@ -7,6 +7,7 @@
 	"Music":[
 			{"File":"MutantTheme1.ogg", "Type":"peace"},
 			{"File":"MutantTheme2.ogg", "Type":"peace"},
+		       {"File":"MutantTheme4.ogg", "Type":"peace"},
 			{"File":"MutantTheme3.ogg", "Type":"peace"}
 		],
 	"Factions":
@@ -41,15 +42,15 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/zapo_civil_centre"
+			"Template": "structures/thermic_civil_centre"
 		},
 		{
-			"Template": "units/zapo_support_female_citizen",
+			"Template": "units/thermic_support_female_citizen",
 			"Count": 4
 		},
 		{
 			"Template": "units/zapo_infantry_swordsman_b",
-			"Count": 20
+			"Count": 2
 		},
 		{
 			"Template": "units/zapo_infantry_javelinist_b",

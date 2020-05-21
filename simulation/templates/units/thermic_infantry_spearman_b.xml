@@ -10,7 +10,7 @@
    <Attack>
     <Ranged>
       <Hack>0</Hack>
-      <Pierce>9.5</Pierce>
+      <Pierce>5</Pierce>
       <Crush>1.0</Crush>
       <MaxRange>100</MaxRange>
       <MinRange>0.0</MinRange>

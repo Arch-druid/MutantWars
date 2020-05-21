@@ -23,6 +23,6 @@
   </ProductionQueue>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/thermic/civic_centre.xml</Actor>
+    <Actor>structures/thermic/barracks.xml</Actor>
   </VisualActor>
 </Entity>

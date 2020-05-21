@@ -9,7 +9,7 @@
       </animations>
       <mesh>structural/thermic/goh_extractorA.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+
       </props>
       <textures>
        <texture file="structural/thermic/goh_buildingB.png" name="baseTex"/>

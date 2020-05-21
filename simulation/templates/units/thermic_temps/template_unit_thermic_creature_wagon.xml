@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/thermic_temps/template_unit_thermic_creature">
+  <Armour>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">2</Pierce>
+  </Armour>
+  <Cost>
+    <Resources>
+      <wood>75</wood>
+      <metal>125</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>1.5</TurnRate>
+	<Floating>true</Floating>
+  </Position>
+  <UnitMotion>
+    <WalkSpeed>14.5</WalkSpeed>
+    <Run>
+      <Speed>16.0</Speed>
+      <Range>1000.0</Range>
+      <RangeMin>10.0</RangeMin>
+    </Run>
+  </UnitMotion>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Sword Siege</VisibleClasses>
+    <GenericName>Champion Cavalry Swordsman</GenericName>
+  </Identity>
+</Entity>

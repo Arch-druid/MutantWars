@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="palisade rocks fort">
+      <animations>
+        <animation event="0.1" load="0" name="attack_ranged" speed="100"/>
+      </animations>
+      <mesh>structural/thermic/gor_wall_towerC.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+      </props>
+      <textures>
+  <texture file="structural/thermic/goron_buildingF.png" name="baseTex"/>
+		<texture file="structural/thermic/goron_buildingA_normal.dds" name="normTex"/>
+		<texture file="structural/thermic/goron_wall_towerC_ao.dds" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_ao_parallax_spec.xml</material>
+</actor>

@@ -6,6 +6,7 @@
       <mesh>skeletal/new/m_armor_nomad_b.dae</mesh>
       <props>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/chin_hairbun.xml" attachpoint="head"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="projectile"/>
       </props>
     </variant>
@@ -13,7 +14,7 @@
   <group>
     <variant frequency="100" name="Base">
       <textures>
-        <texture file="skeletal/thermic_skin.png" name="baseTex"/>
+        <texture file="skeletal/thermic/thermic_skin.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

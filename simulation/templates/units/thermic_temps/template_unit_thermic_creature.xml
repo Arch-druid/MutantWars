@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/thermic_temps/template_unit_thermic">
+  <Armour>
+    <Hack>7</Hack>
+    <Pierce>5</Pierce>
+    <Crush>5</Crush>
+    <Forest>0.0</Forest>
+    <Fire>0.0</Fire>
+    <Water>0.0</Water>
+    <Spirit>0.0</Spirit>
+    <Light>0.0</Light>
+    <Shadow>0.0</Shadow>
+  </Armour>
+  <Cost>
+    <Population>1</Population>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="2.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>270</Max>
+  </Health>
+  <Identity>
+    <GenericName>Champion Cavalry</GenericName>
+    <VisibleClasses datatype="tokens">Cavalry</VisibleClasses>
+    <Formations datatype="tokens">
+      special/formations/wedge
+    </Formations>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>arrow/256x256.png</MainTexture>
+        <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <StatusBars>
+    <HeightOffset>7.5</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>11.5</WalkSpeed>
+    <Run>
+      <Speed>16.5</Speed>
+      <Range>600.0</Range>
+      <RangeMin>5.0</RangeMin>
+    </Run>
+  </UnitMotion>
+  <Vision>
+    <Range>96</Range>
+  </Vision>
+</Entity>

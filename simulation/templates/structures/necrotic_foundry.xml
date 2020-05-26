@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <GarrisonHolder>
+    <List datatype="tokens">Infantry Cavalry Minister</List>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>necrotic</Civ>
+    <SpecificName>Necrotic Foundry</SpecificName>
+    <Icon>structures/necrotic_foundry_icon.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/necrotic/necrotic_foundry.xml</Actor>
+  </VisualActor>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+
+      units/{civ}_infantry_spearman_b
+      units/{civ}_necrotic_priest
+      units/{civ}_fungal_juggernaut
+
+    </Entities>
+  </ProductionQueue>
+</Entity>

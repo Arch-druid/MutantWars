@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>necrotic</Civ>
+    <SelectionGroupName>units/necrotic_fungal_juggernaut</SelectionGroupName>
+    <GenericName>Necroid</GenericName>
+    <SpecificName>Fungal Juggernaut</SpecificName>
+    <Icon>units/necrotic_soldier.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/necrotic_fungal_juggernaut</Entity>
+  </Promotion>
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}_chamber
+      structures/{civ}_civil_centre
+      structures/{civ}_foundry
+    </Entities>
+      </Builder>
+  <VisualActor>
+    <Actor>units/necrotic/necrotic_fungal_juggernaut</Actor>
+  </VisualActor>
+</Entity>

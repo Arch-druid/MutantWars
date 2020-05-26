@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
+    </contributor>
+    <created>2017-09-01T01:08:51</created>
+    <modified>2017-09-01T01:08:51</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="lambert1-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4 0.4 0.4 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="lambert1-material" name="lambert1">
+      <instance_effect url="#lambert1-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="windblast_01Shape-mesh" name="windblast_01Shape">
+      <mesh>
+        <source id="windblast_01Shape-mesh-positions">
+          <float_array id="windblast_01Shape-mesh-positions-array" count="18">0.002229392 0.001912593 -0.03445148 0.007468879 -0.009223699 -0.03140783 -0.002045512 -6.08206e-4 -0.02413201 0.001197576 -0.007665395 -0.02351331 -0.005504369 -0.001966238 0.02279448 0.007438063 0 -0.02242374</float_array>
+          <technique_common>
+            <accessor source="#windblast_01Shape-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="windblast_01Shape-mesh-normals">
+          <float_array id="windblast_01Shape-mesh-normals-array" count="18">-0.1463089 0.5036579 -0.8514239 -0.6004011 -0.7872692 -0.1404486 -0.9514083 0.2324654 -0.2019461 0.4270907 -0.6740245 -0.6027308 -0.1795745 0.02414059 0.9834482 0.8365184 0.5360615 0.1134686</float_array>
+          <technique_common>
+            <accessor source="#windblast_01Shape-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="windblast_01Shape-mesh-map-0">
+          <float_array id="windblast_01Shape-mesh-map-0-array" count="48">0.9559822 0.8310575 0.954179 0.832327 0.955926 0.83258 0.9559822 0.8310575 0.952129 0.830277 0.954179 0.832327 0.954179 0.832327 0.953616 0.836082 0.955926 0.83258 0.9533415 0.83112 0.9561425 0.83062 0.955926 0.83258 0.953558 0.832226 0.9533415 0.83112 0.953616 0.836082 0.9533415 0.83112 0.955926 0.83258 0.953616 0.836082 0.9543166 0.8310516 0.955363 0.832504 0.953616 0.836082 0.9537565 0.8308846 0.953616 0.836082 0.955363 0.832504</float_array>
+          <technique_common>
+            <accessor source="#windblast_01Shape-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="windblast_01Shape-mesh-vertices">
+          <input semantic="POSITION" source="#windblast_01Shape-mesh-positions"/>
+        </vertices>
+        <polylist material="lambert1-material" count="8">
+          <input semantic="VERTEX" source="#windblast_01Shape-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#windblast_01Shape-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#windblast_01Shape-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 3 1 1 2 2 2 0 0 3 1 3 4 3 1 5 3 1 6 4 4 7 2 2 8 1 3 9 0 0 10 5 5 11 3 1 12 1 3 13 4 4 14 1 3 15 5 5 16 4 4 17 0 0 18 2 2 19 4 4 20 0 0 21 4 4 22 5 5 23</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="windblast_01" name="windblast_01" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 -1.62921e-7 -1 0 0 1 -1.62921e-7 0 0 0 0 1</matrix>
+        <instance_geometry url="#windblast_01Shape-mesh" name="windblast_01">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert1-material" target="#lambert1-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

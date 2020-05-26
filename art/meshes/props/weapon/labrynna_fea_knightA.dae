@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
+    </contributor>
+    <created>2020-01-08T20:06:37</created>
+    <modified>2020-01-08T20:06:37</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="lambert7-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="lambert7-material" name="lambert7">
+      <instance_effect url="#lambert7-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="polySurfaceShape110-mesh" name="polySurfaceShape110">
+      <mesh>
+        <source id="polySurfaceShape110-mesh-positions">
+          <float_array id="polySurfaceShape110-mesh-positions-array" count="72">0.3723221 1.312226 -0.4743671 -0.02729034 0.9166116 0.2306623 0.3249731 0.8990639 -0.6683254 -0.02732765 0.534974 -0.02410697 4.78007e-4 0.6965951 -0.2662172 5.15243e-4 1.078233 -0.01144856 0.1329427 1.216737 -0.2712717 0.0796132 0.8369302 -0.5187988 -0.003183484 1.535233 -0.08093476 -0.003183484 0.7112893 0.3750515 -0.003183484 1.31305 -0.4824219 -0.003183484 0.4891061 -0.02643728 0.3307414 1.312226 -0.4743671 -0.06887096 0.9166116 0.2306623 0.2833925 0.8990639 -0.6683254 -0.06890827 0.534974 -0.02410697 -0.04110258 0.6965951 -0.2662172 -0.04106539 1.078233 -0.01144856 0.09136199 1.216737 -0.2712717 0.03803253 0.8369302 -0.5187988 -0.0447641 1.535233 -0.08093476 -0.0447641 0.7112893 0.3750515 -0.0447641 1.31305 -0.4824219 -0.0447641 0.4891061 -0.02643728</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape110-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurfaceShape110-mesh-normals">
+          <float_array id="polySurfaceShape110-mesh-normals-array" count="42">0.9954691 -0.05286109 0.07903927 0.6822552 -0.3732973 0.6286311 0.9561415 -0.2418959 0.1651662 1 0 0 -0.9954691 0.05286103 -0.07903867 -0.6822552 0.3732972 -0.6286312 -0.9112436 0.2287381 -0.3425113 -1 0 0 0.9954691 -0.05286103 0.07903867 0.537826 -0.512015 0.6697641 0.9112434 -0.2287382 0.3425118 -0.9954691 0.05286109 -0.07903927 -0.537826 0.5120149 -0.6697642 -0.9561415 0.2418958 -0.1651664</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape110-mesh-normals-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurfaceShape110-mesh-map-0">
+          <float_array id="polySurfaceShape110-mesh-map-0-array" count="96">0.6718096 0.1751645 0.9733719 0.8519557 0.6718096 0.8519557 0.3812661 0.1751645 0.002246856 0.8519557 0.002246856 0.1751645 0.3812661 0.1751645 0.6718096 0.8519557 0.3812661 0.8519557 0.002246856 0.1751645 0.9733719 0.8519557 0.002246856 0.8519557 0.6718096 0.1751645 0.9733719 0.8519557 0.9733719 0.1751645 0.002246856 0.8519557 0.3812661 0.1751645 0.002246856 0.1751645 0.3812661 0.1751645 0.6718096 0.8519557 0.6718096 0.1751645 0.002246856 0.1751645 0.9733719 0.8519557 0.9733719 0.1751645 0.6718096 0.1751645 0.9733719 0.1751645 0.9733719 0.8519557 0.3812661 0.1751645 0.3812661 0.8519557 0.002246856 0.8519557 0.3812661 0.1751645 0.6718096 0.1751645 0.6718096 0.8519557 0.002246856 0.1751645 0.9733719 0.1751645 0.9733719 0.8519557 0.6718096 0.1751645 0.6718096 0.8519557 0.9733719 0.8519557 0.002246856 0.8519557 0.3812661 0.8519557 0.3812661 0.1751645 0.3812661 0.1751645 0.3812661 0.8519557 0.6718096 0.8519557 0.002246856 0.1751645 0.002246856 0.8519557 0.9733719 0.8519557</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape110-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurfaceShape110-mesh-vertices">
+          <input semantic="POSITION" source="#polySurfaceShape110-mesh-positions"/>
+        </vertices>
+        <polylist material="lambert7-material" count="16">
+          <input semantic="VERTEX" source="#polySurfaceShape110-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polySurfaceShape110-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polySurfaceShape110-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>5 0 0 3 0 1 4 0 2 6 1 3 2 1 4 0 1 5 6 2 6 4 2 7 7 2 8 8 3 9 11 3 10 10 3 11 17 4 12 15 4 13 13 4 14 14 5 15 18 5 16 12 5 17 18 6 18 16 6 19 17 6 20 20 7 21 23 7 22 21 7 23 5 8 24 1 8 25 3 8 26 6 9 27 7 9 28 2 9 29 6 10 30 5 10 31 4 10 32 8 3 33 9 3 34 11 3 35 17 11 36 16 11 37 15 11 38 14 12 39 19 12 40 18 12 41 18 13 42 19 13 43 16 13 44 20 7 45 22 7 46 23 7 47</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="polySurface108" name="polySurface108" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 -1.19209e-7 0 0 1.19209e-7 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#polySurfaceShape110-mesh" name="polySurface108">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert7-material" target="#lambert7-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
